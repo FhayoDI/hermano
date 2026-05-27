@@ -1,5 +1,3 @@
-# Roteiro – Vídeo StockFácil (7–12 min)
-
 ## Empresa: StockFácil
 - **Domínio fictício:** stockfacil.com.br
 - **Missão:** Controle de Estoque Inteligente para pequenas e médias empresas
