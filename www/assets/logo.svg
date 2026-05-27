@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 52" width="220" height="52">
+  <!-- Caixa/pacote -->
+  <rect x="2" y="14" width="36" height="30" rx="3" fill="#2563eb"/>
+  <rect x="2" y="14" width="36" height="10" rx="3" fill="#1e40af"/>
+  <line x1="20" y1="14" x2="20" y2="44" stroke="#60a5fa" stroke-width="1.5"/>
+  <line x1="10" y1="19" x2="30" y2="19" stroke="#93c5fd" stroke-width="1.2"/>
+  <!-- Texto principal -->
+  <text x="46" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e293b">Stock</text>
+  <text x="114" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#2563eb">Fácil</text>
+  <!-- Tagline -->
+  <text x="46" y="46" font-family="Arial, sans-serif" font-size="9" fill="#64748b" letter-spacing="0.5">Controle de Estoque Inteligente</text>
+</svg>
