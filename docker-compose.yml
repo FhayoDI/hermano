@@ -30,13 +30,14 @@ services:
     networks:
       - backend
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-pstockfacil123"]
+      test: ["CMD", "mysql", "-h", "127.0.0.1", "-uappuser", "-papppass123", "-e", "SELECT 1 FROM stockfacil.produtos LIMIT 1"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 120s
     restart: unless-stopped
 
-  # --- Diferencial: Monitoramento com Prometheus + Grafana ---
+  # Prometeus e Grafana
 
   node-exporter:
     image: prom/node-exporter
